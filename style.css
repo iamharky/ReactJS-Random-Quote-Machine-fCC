@@ -1,0 +1,54 @@
+body {
+  background-color: beige;
+  font-family: 'Segoe UI', Verdana;
+}
+
+#quote-box {
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 14vh;
+  padding: 24px
+}
+
+#text {
+  margin-top: 0;
+  font-size: 26px;
+}
+
+#author {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444
+}
+
+#buttons {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+#new-quote {
+  outline: none;
+  color: white;
+  background-color: orangered;
+  font-size: 16px;
+  border: 0;
+  height: 40px;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  color: skyblue;
+  font-size: 44px;
+  cursor: pointer;
+}
